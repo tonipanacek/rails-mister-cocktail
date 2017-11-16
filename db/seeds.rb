@@ -12,7 +12,7 @@ require 'open-uri'
 require 'json'
 
 file = open("http://www.thecocktaildb.com/api/json/v1/1/list.php?i=list")
-parsed = JSON.parse(file.read)
+p parsed = JSON.parse(file.read)
 
 data = parsed["drinks"]
 

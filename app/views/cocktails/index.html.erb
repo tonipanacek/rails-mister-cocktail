@@ -1,7 +1,13 @@
+
+<div class="container text-center">
 <h1>LET'S GET DRUNK</h1>
-
+<ul class="list-unstyled">
 <% @cocktails.each do |cocktail| %>
+  <li><i class="fa fa-glass" aria-hidden="true"></i> <br>
   <%= cocktail.name %>
+  <br><%= link_to "See more", cocktail_path(cocktail), class: 'btn btn-primary btn-sm' %> </li> <br>
 <% end %>
-
+</ul>
+<br>
 <%= link_to 'Create a new drank', new_cocktail_path %>
+</div>

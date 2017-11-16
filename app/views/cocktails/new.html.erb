@@ -1,6 +1,7 @@
+<div class="container" style="width:400px">
 <h1>NEW DRANK</h1>
 
-<%= simple_form_for @cocktail do |f| %>
-  <%= f.input :name %>
-  <%= f.submit %>
-<% end %>
+<%= render 'form' %>
+
+<%= link_to 'Cancel', root_path, class: 'btn btn-danger'%>
+</div>

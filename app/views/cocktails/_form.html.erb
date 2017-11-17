@@ -17,5 +17,7 @@
       <%= link_to_add_association 'add ingredient', f, :doses %>
     </div>
   </div>
+  <%= f.input :photo %>
+  <%= f.input :photo_cache, as: :hidden %>
   <%= f.submit %>
 <% end %>

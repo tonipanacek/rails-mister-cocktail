@@ -1,0 +1,34 @@
+.form-container{
+  position: relative;
+  width: 100%;
+}
+
+.form {
+  position: absolute;
+  top: 100px;
+  left: 175px;
+  background-color: #E0DDC3;
+  width: 400px;
+  text-align: center;
+  padding: 50px;
+  border-radius: 5px;
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.cream-wrapper {
+  background:rgba(0,0,0,0.1);
+}
+
+.cocktail-container {
+  position: absolute;
+  top: 100px;
+  left: 175px;
+  background-color: #E0DDC3;
+  width: 400px;
+  text-align: center;
+  padding: 50px;
+  border-radius: 5px;
+  height: 500px;
+}

@@ -9,7 +9,6 @@
     </div>
   <% end %>
   <%= f.input :name, label: 'Cocktail Name' %>
-  <h4>Ingredients:</h4>
   <div id="doses">
     <%=  f.simple_fields_for :doses do |dose| %>
       <%= render 'dose_fields', f: dose %>

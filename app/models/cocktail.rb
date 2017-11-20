@@ -5,4 +5,6 @@ class Cocktail < ApplicationRecord
   accepts_nested_attributes_for :doses, reject_if: :all_blank, allow_destroy: true
 
   mount_uploader :photo, PhotoUploader
+
+
 end
